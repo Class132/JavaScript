@@ -1,0 +1,7 @@
+let naming = prompt("Какое «официальное» название JavaScript?"); 
+if (naming == "ECMAScript") {
+  alert("Верно!")
+
+} else { 
+alert("Не знаете? ECMAScript!")
+}
