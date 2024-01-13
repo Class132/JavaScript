@@ -1,0 +1,7 @@
+let hour = prompt('what our is it now?');
+
+if ( hour < 10 || hour > 18) {
+  alert('Office is closed'); 
+} else { 
+  alert('Office is opened'); 
+}
