@@ -1,0 +1,6 @@
+function helloName () { 
+n = Number(prompt('number')); 
+  alert(n + 7); 
+}
+
+helloName(); 
