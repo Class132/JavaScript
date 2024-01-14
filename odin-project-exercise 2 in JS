@@ -1,0 +1,7 @@
+
+function multiply(a, b) { 
+  return  a * b ;
+}
+
+let result = multiply(a = prompt('Insert "a" value'), b = prompt('Insert "b" value'))
+alert(result); 
