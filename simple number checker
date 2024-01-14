@@ -1,0 +1,10 @@
+
+let number = Number(prompt('Enter ur number'));
+
+if (number <= 10) { 
+  alert('Small number')
+} else if (number < 100) { 
+  alert('Medium number')
+ } else { 
+   alert('Large number'); 
+  }
