@@ -1,0 +1,18 @@
+let obj = {
+  name: 'Girocopter', 
+  age: 21, 
+  nationality: 'tajik',
+
+  };
+
+
+function isEmpty(obj) { 
+const objectEmpty = Object.keys(obj).length === 0;
+if ( objectEmpty == true) { 
+  return true;
+} else { 
+  return false; 
+}
+}
+
+console.log(isEmpty(obj)); 
