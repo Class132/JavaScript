@@ -1,0 +1,25 @@
+html { 
+    height: 100%;
+}
+
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.press-button { 
+    padding: 50px 150px; 
+    background-color: hotpink;
+    border-radius: 7px; 
+    cursor: pointer;
+    display: block;
+    font-size: 25px;
+    margin-left: 400px; 
+    border: none; 
+    color: white; 
+}
+
+.press-button:hover { 
+    box-shadow: 3px 3px 20px rgb(236, 47, 205); 
+    background-color: rgb(236, 47, 205);
+}
